@@ -1,0 +1,36 @@
+/* assets/css/style.css */
+:root {
+    --rdc-blue: #007FFF;    /* Bleu azur principal */
+    --rdc-yellow: #FDD017;  /* Jaune or pour les accents et avertissements */
+    --rdc-red: #D21034;     /* Rouge sang pour les actions importantes/urgences */
+    --dark-blue: #004C99;
+    --light-bg: #F8F9FA;
+}
+
+body {
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+    background-color: var(--light-bg);
+}
+
+.bg-rdc-blue { background-color: var(--rdc-blue) !important; }
+.text-rdc-blue { color: var(--rdc-blue) !important; }
+.btn-rdc-blue {
+    background-color: var(--rdc-blue);
+    color: white;
+    border: none;
+    transition: 0.3s;
+}
+.btn-rdc-blue:hover {
+    background-color: var(--dark-blue);
+    color: white;
+}
+.border-rdc-yellow {
+    border-color: var(--rdc-yellow) !important;
+}
+.badge-rdc-red {
+    background-color: var(--rdc-red);
+    color: white;
+}
+.bg-gradient-rdc {
+    background: linear-gradient(135deg, #007FFF 60%, #fdcf1795 65%, #d2103488 100%);
+}
